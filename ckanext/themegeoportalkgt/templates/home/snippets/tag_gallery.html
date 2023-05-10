@@ -1,0 +1,42 @@
+{% block tag_gallery %}
+<div class="tag-gallery-main row d-flex">
+  <a class="tag-gallery-item col-12 col-md-2" href="{% url_for 'dataset.search', tags='GeoJSON' %}">
+    <span>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxDJhXOB1HJJ7LYIuWjwdZrfD2kvXi_T7E2A&usqp=CAU" alt="GeoJSON Logo" class="tag-gallery-icon"></br>
+      GeoJSON
+    </span>
+  </a>
+  <div class="tag-gallery-item col-12 col-md-2">
+    <i class="fa fa-square tag-gallery-icon" aria-hidden="true"></i></br>
+    <a class="" href="{% url_for 'dataset.search', tags='Geometrie' %}">Geometrie</a>
+  </div>
+  <div class="tag-gallery-item col-12 col-md-2">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/DEU_Kreis_G%C3%BCtersloh_COA.svg/1200px-DEU_Kreis_G%C3%BCtersloh_COA.svg.png" alt="Kreis Gütersloh Logo" class="tag-gallery-icon"></br>
+    <a class="" href="{% url_for 'dataset.search', tags='Kreis Gütersloh' %}">Kreis Gütersloh</a>
+  </div>
+  <div class="tag-gallery-item col-12 col-md-2">
+    <i class="fa fa-file tag-gallery-icon" aria-hidden="true"></i></br>
+    <a class="" href="{% url_for 'dataset.search', tags='Shape' %}">Shapefile</a>
+  </div>
+  <div class="tag-gallery-item col-12 col-md-2">
+    <i class="fa fa-map-marker tag-gallery-icon" aria-hidden="true"></i></br>
+    <a class="" href="{% url_for 'dataset.search', tags='GeoJSON' %}">GeoJSON</a>
+  </div>
+  <div class="tag-gallery-item col-12 col-md-2">
+    <i class="fa fa-square tag-gallery-icon" aria-hidden="true"></i></br>
+    <a class="" href="{% url_for 'dataset.search', tags='Geometrie' %}">Geometrie</a>
+  </div>
+  <div class="tag-gallery-item col-12 col-md-2">
+    <i class="fa fa-map-signs tag-gallery-icon" aria-hidden="true"></i></br>
+    <a class="" href="{% url_for 'dataset.search', tags='Kreis Gütersloh' %}">Kreis Gütersloh</a>
+  </div>
+  <div class="tag-gallery-item col-12 col-md-2">
+    <i class="fa fa-file tag-gallery-icon" aria-hidden="true"></i></br>
+    <a class="" href="{% url_for 'dataset.search', tags='Shape' %}">Shapefile</a>
+  </div>
+  <div class="tag-gallery-item col-12 col-md-2">
+    <i class="fa fa-file tag-gallery-icon" aria-hidden="true"></i></br>
+    <a class="" href="{% url_for 'dataset.search', tags='Shape' %}">Shapefile</a>
+  </div>
+</div>
+{% endblock %}
