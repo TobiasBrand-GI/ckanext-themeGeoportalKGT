@@ -26,7 +26,7 @@
 }
 .hero{
     height: 300px !important;
-    background: linear-gradient(to top, #032c4983, #313131e8), url('http://geosrv9.kreis.gt-net.de/geoportal/wp-content/uploads/2023/03/BackgroundImage_NeueKreishomepage_.jpg') !important;
+    background: linear-gradient(to top, #032c4983, #313131e8), url('http://geosrv9.kreis.gt-net.de/geoportal/wp-content/uploads/2023/04/CoverbildGT.jpg') !important;
     background-size: cover !important;
     background-position:center !important;
 }
